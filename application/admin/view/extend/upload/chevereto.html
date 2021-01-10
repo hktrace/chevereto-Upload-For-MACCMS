@@ -1,0 +1,14 @@
+<div class="layui-form-item upload_mode mode_Chevereto" {if condition="$config['upload']['mode'] neq 'Chevereto'"}style="display:none;" {/if}>
+<div class="layui-form-item">
+    <label class="layui-form-label">接口地址：</label>
+    <div class="layui-input-block  w500">
+        <input type="text" name="upload[api][chevereto][api]" placeholder="接口地址" value="{$config['upload']['api']['chevereto']['api']}" class="layui-input" >
+    </div>
+</div>
+<div class="layui-form-item">
+    <label class="layui-form-label">Token：</label>
+    <div class="layui-input-block  w500">
+        <input type="text" name="upload[api][chevereto][token]" placeholder="token" value="{$config['upload']['api']['chevereto']['token']}" class="layui-input" >
+    </div>
+</div>
+</div>
